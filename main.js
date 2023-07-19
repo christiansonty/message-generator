@@ -8,3 +8,6 @@ const randMessage = msgArray => {
     const randPos = Math.floor(Math.random() * len)
     return msgArray[randPos];
 }
+
+console.log(randMessage(startMessage) + randMessage(midMessage) + randMessage(endMessage));
+ 
